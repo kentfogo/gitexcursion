@@ -1,1 +1,23 @@
-ECHO is on.
+/*RESET STYLES */
+*{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: Verdana;
+}
+
+header{
+  position: relative;
+  font-weight: normal;
+  margin: 0 auto;
+  
+
+}
+
+header h1{
+  font-weight: normal;
+}
+
+.wrapper{
+
+}
