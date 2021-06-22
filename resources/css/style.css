@@ -6,11 +6,19 @@
   font-family: Verdana;
 }
 
+html{
+
+}
+
+body{
+
+}
+
 header{
   position: relative;
   font-weight: normal;
   margin: 0 auto;
-  
+
 
 }
 
@@ -19,5 +27,37 @@ header h1{
 }
 
 .wrapper{
+
+}
+
+.iphone{
+
+}
+
+.travel{
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  width: 1000px;
+  height: 1000px;
+  align-content: center;
+}
+
+.travel img{
+  margin: 0 auto;
+  position: relative;
+  align-content: center;
+  width: 896px;
+  height: 527px;
+
+}
+
+.cell img{
+  margin: 0 auto;
+  width: 64px;
+  height: 108px;
+}
+footer{
 
 }
