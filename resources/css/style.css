@@ -1,17 +1,14 @@
 /*RESET STYLES */
-*{
+
+html{
+  display: block;
+}
+
+body{
   background-color: black;
   color: white;
   text-align: center;
   font-family: Verdana;
-}
-
-html{
-
-}
-
-body{
-
 }
 
 header{
@@ -22,6 +19,7 @@ header{
 
 header h1{
   font-weight: normal;
+  font-size: 50px;
 }
 
 .wrapper{
@@ -39,27 +37,29 @@ header h1{
 }
 
 .travel{
-  margin: 0 auto;
+
   position: relative;
-  display: flex;
+  display: block;
   flex-flow: column;
-  width: 1000px;
   height: 700px;
-  align-content: center;
+
 }
 
 .travel h2{
+  display: block;
   font-weight: 300;
   font-size: 42px;
 }
 
-.travel h3{
+.travel p{
+  display: block;
   color: gray;
   font-size: 21px;
-  font-weight: normal;
+  
 }
 
 .travel img{
+  display: block;
   margin: 0 auto;
   position: relative;
   align-content: center;
@@ -68,24 +68,26 @@ header h1{
 }
 
 .cell img{
+  display: block;
   margin: 0 auto;
   width: 64px;
   height: 108px;
   position: relative;
-  top: 80px;
 }
 
 .preview{
+  display: block;
   position: relative;
-  top: 65px;
 }
 
 .preview h2{
+  display: block;
   font-weight: 300;
   font-size: 42px;
 }
 
 .preview h3{
+  display: block;
   color: aquamarine;
   font-size: 16px;
   font-weight: normal;
@@ -95,6 +97,5 @@ footer, h4{
   float: right;
   color: gray;
   position: relative;
-  top: 30px;
   font-weight: normal;
 }
